@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Super Tic Tac Toe</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <div class="container">
+      <p>Super Tic Tac Toe <a href="https://hadeedkhan1.github.io/">By Hadeed Khan</a></p>
+
+        <h1 id="playerText">Player X's Turn</h1>
+        <div class="info">
+            <button id="restartButton" class="btn btn-warning">Again</button>
+            <div id="score">
+                <p>X: <span id="xScore">0</span></p>
+                <p>O: <span id="oScore">0</span></p>
+            </div>
+        </div>
+        <div id="gameboard">
+            <!-- Creating a 3x3 grid of mini-boards -->
+            <div class="mini-board" id="mini-board-0"></div>
+            <div class="mini-board" id="mini-board-1"></div>
+            <div class="mini-board" id="mini-board-2"></div>
+            <div class="mini-board" id="mini-board-3"></div>
+            <div class="mini-board" id="mini-board-4"></div>
+            <div class="mini-board" id="mini-board-5"></div>
+            <div class="mini-board" id="mini-board-6"></div>
+            <div class="mini-board" id="mini-board-7"></div>
+            <div class="mini-board" id="mini-board-8"></div>
+        </div>
+    </div>
+</body>
+</html>
